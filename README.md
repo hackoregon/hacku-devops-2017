@@ -1,15 +1,16 @@
 # DevOps Winter 2017 - Syllabus
 
 ## Course Information
-* Location: Falcon Building. 321 NW Glisan Ave. Portland, OR
+* Location: PNCA Building. 511 NW Broadway, Portland, OR 97209
 * Meeting Times: Tuesday + Thursday 6-9pm, starting January 10th
 * Duration: 8 weeks
 
 ## Instructor Bios and Contact Informaton
 
-### Merritt Lawrenson - merrittlawrenson@gmail.com, @???? (slack and github)
+### Merritt Lawrenson - merrittlawrenson@gmail.com, @merritt (slack), @flamingveggies (git)
 ### Dan Carr - ddcarr@gmail.com, @pdxdiver (slack and git)
 Dan's Linkedin Profile - https://www.linkedin.com/in/ddcarr
+Merritt's Linkedin Profile - https://www.linkedin.com/in/merrittlawrenson
 
 ## Prerequsites
 * Linux & Bash
