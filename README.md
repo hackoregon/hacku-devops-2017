@@ -32,6 +32,8 @@ Students will gain direct, hands on experience inside the Hack Oregon DevOps tea
 * CloudFoundry/Bluemix platform architecture
 
 ### Foundations Reading List
+* DevOps Handbook - Part 1
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html
 
 ### The DevOps Pipeline 
 ### Build - How we build our application, 
@@ -53,6 +55,7 @@ TODO: Address achievable, measurable skills, knowledge, and attitudes that stude
 * Multiple Cores: 2 - 4
 * Memory: 4GB min.  8GB recommended
 * OS (Linux, Windows, MacOS)
+* [AWS Free-Tier Account](
 
 Please install the following software prior to our first class:
 
@@ -64,12 +67,12 @@ Hack Oregon operational stack includes AWS, Ansible, Docker and Vagrant. Applica
 
 ## Detailed Class Schedule and Topics Covered
 #### Week 1 
-* Reading List
-  * Link 1
-  * Link 2
 * Meeting 1 (Jan 10th) - Course Introduction, Foundations (CI/CD, DevOps)
 * Meeting 2 (Jan 12th) - Foundations (Platform Architectures)
-* Assignment 1 - Provisioning
+* Reading List
+ -  [AWS Console Overview](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
+ - [Assignment 1 - Provisioning and EC2 instance from the console](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-tutorials.html#tutorials-compute)
+ - [Assignment 2 - Provisioning and EC2 instance from the console](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-tutorials.html#tutorials-compute)
 
 #### Week 2 
 * Reading List
