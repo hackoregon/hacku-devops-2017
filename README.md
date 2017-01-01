@@ -10,6 +10,7 @@
 ### Merritt Lawrenson - merrittlawrenson@gmail.com, @merritt (slack), @flamingveggies (git)
 ### Dan Carr - ddcarr@gmail.com, @pdxdiver (slack and git)
 Dan's Linkedin Profile - https://www.linkedin.com/in/ddcarr
+
 Merritt's Linkedin Profile - https://www.linkedin.com/in/merrittlawrenson
 
 ## Prerequsites
