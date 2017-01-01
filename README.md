@@ -17,45 +17,22 @@ Dan's Linkedin Profile - https://www.linkedin.com/in/ddcarr
 * Familiarity with Amazon Web Services
 * Basic understanding of networking fundamentals
 
+## Course Purpose & Goals
+
+TODO - ClEAN UP - Students will gain direct, hands on experience inside the Hack Oregon DevOps team during our active production sprint and participate in the deployment of season projects. 
+
 ### Class Text Material
+
 * [DevOps Handbook](https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations-ebook/dp/B01M9ASFQ3) - Required
 * [Continuous Delivery] (https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) - Optional
 * [Phoenix Project] (https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) - Optional
-
-## Course Purpose
-Students will gain direct, hands on experience inside the Hack Oregon DevOps team during our active production sprint and participate in the deployment of season projects.  Topics that we will cover include:
-
-### Foundations
-* Continuous Integration and Continuous Delivery 
-* DevOps Pipeline - Build, Test and Deploy
-* Amazon Web Services (AWS) platform architecture
-* CloudFoundry/Bluemix platform architecture
-
-### Foundations Reading List
-* DevOps Handbook - Part 1
-http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html
-
-### The DevOps Pipeline 
-### Build - How we build our application, 
-### Test
-### Deploy
-
-### The DevOps Pipeline Reading List
-
-* Ansible, Chef, Puppet, Salt - We will emphasize Ansible
-* Containers - We will emphasize Docker and EC2 Container Service
-
-Topics covered include basic network and AWS VPC architecture, Automating AWS deployments with configuration management, software install with CM tools, self-healing application stack design, and Dockerizing existing projects.
-
-## Course Goals
-TODO: Address achievable, measurable skills, knowledge, and attitudes that students will need to acquire.
 
 ## Computing and Technical Environment
 ### Laptop
 * Multiple Cores: 2 - 4
 * Memory: 4GB min.  8GB recommended
 * OS (Linux, Windows, MacOS)
-* [AWS Free-Tier Account](
+* [AWS Free-Tier Account](https://aws.amazon.com/free/)
 
 Please install the following software prior to our first class:
 
@@ -65,26 +42,49 @@ Please install the following software prior to our first class:
 
 Hack Oregon operational stack includes AWS, Ansible, Docker and Vagrant. Applications are written in Python and NodeJs using Django and React.
 
+## Course Topics
+
+### Foundations (Weeks 1 & 2)
+* Continuous Integration and Continuous Delivery 
+* DevOps Pipeline - Build, Test and Deploy
+* Amazon Web Services (AWS) platform architecture
+* CloudFoundry/Bluemix platform architecture
+
+### The DevOps Pipeline - Part 1 (Weeks 2 & 3)
+* Build - How we build our application and infrastructre with automation
+* Test - How we automate our testing
+* Deploy - How we automate deployments
+
+### The DevOps Pipeline Part 2 - Full Stack (Weeks 4 & 5)
+* Build - How we build our application and infrastructre with automation
+* Test - How we automate our testing
+* Deploy - How we automate deployments
+
+### The DevOps Pipeline Part 3 - Containers (Weeks 5 & 6)
+* Build - How we build our application and infrastructre with automation
+* Test - How we automate our testing
+* Deploy - How we automate deployments
+
+### Final Project Hackathons (Weeks 7 & 8)
+* Build - How we build our application and infrastructre with automation
+* Test - How we automate our testing
+* Deploy - How we automate deployments
+
 ## Detailed Class Schedule and Topics Covered
-#### Week 1 
+#### Week 1 - Foundations Part 1
 * Meeting 1 (Jan 10th) - Course Introduction, Foundations (CI/CD, DevOps)
 * Meeting 2 (Jan 12th) - Foundations (Platform Architectures)
-* Reading List
- -  [AWS Console Overview](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
- - [Assignment 1 - Provisioning and EC2 instance from the console](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-tutorials.html#tutorials-compute)
- - [Assignment 2 - Provisioning and EC2 instance from the console](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-tutorials.html#tutorials-compute)
+* Week 1 Reading List
+ - DevOps Handbook - Part 1
+ - [AWS Console Overview](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
+* Week 1 Assignments
+ - [Assignment 1 - Provisioning and EC2 instance from the console (http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
 
-#### Week 2 
-* Reading List
-  * Link 1
-  * Link 2
+#### Week 2 - Foundations Part 2
 * Meeting 3 (Jan 17th)
 * Meeting 4 (Jan 19th)
 
-#### Week 3
-* Reading List
-  * Link 1
-  * Link 2
+#### Week 3 - The DevOps Pipeline
 * Meeting 5 (Jan 21st)
 * Meeting 6 (Jan 23rd)
 
