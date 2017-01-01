@@ -6,15 +6,33 @@
 * Duration: 8 weeks
 
 ## Instructor Bios and Contact Informaton
-* As Availalbe Dan Carr - ddcarr@gmail.com, @pdxdiver (slack and git)
-* Merritt Lawrenson - merrittlawrenson@gmail.com, @???? (slack and github)
-* TBD - 
+
+### Merritt Lawrenson - merrittlawrenson@gmail.com, @???? (slack and github)
+### Dan Carr - ddcarr@gmail.com, @pdxdiver (slack and git)
+Dan's Linkedin Profile - https://www.linkedin.com/in/ddcarr
 
 ## Prerequsites
-TODO
+* Linux & Bash
+* Scripting and programming experience (Javascript, Python, Ruby, Java)
+
+## Reading Material
+* A [link](https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations-ebook/dp/B01M9ASFQ3).
 
 ## Course Purpose
-Students will gain direct, hands on experience inside the Hack Oregon DevOps team during our active production sprint and participate in the deployment of season projects.
+Students will gain direct, hands on experience inside the Hack Oregon DevOps team during our active production sprint and participate in the deployment of season projects.  Topics that we will cover include:
+
+### DevOps Foundations
+* Continuous Integration and Continuous Delivery 
+* DevOps Pipeline - Build, Test and Deploy
+* Amazon Web Services (AWS) platform architecture
+* CloudFoundry/Bluemix platform architecture
+
+### Build
+### Test
+### Deploy
+
+* Ansible, Chef, Puppet, Salt - We will emphasize Ansible
+* Containers - We will emphasize Docker and EC2 Container Service
 
 Topics covered include basic network and AWS VPC architecture, Automating AWS deployments with configuration management, software install with CM tools, self-healing application stack design, and Dockerizing existing projects.
 
