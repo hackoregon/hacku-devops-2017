@@ -1,4 +1,4 @@
-# DevOps in Action 101 - Syllabus 
+# DevOps Winter 2017 - Syllabus
 
 ## Course Information
 * Location: Falcon Building. 321 NW Glisan Ave. Portland, OR
@@ -14,22 +14,31 @@ Dan's Linkedin Profile - https://www.linkedin.com/in/ddcarr
 ## Prerequsites
 * Linux & Bash
 * Scripting and programming experience (Javascript, Python, Ruby, Java)
+* Familiarity with Amazon Web Services
+* Basic understanding of networking fundamentals
 
-## Reading Material
-* A [link](https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations-ebook/dp/B01M9ASFQ3).
+### Class Text Material
+* [DevOps Handbook](https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations-ebook/dp/B01M9ASFQ3) - Required
+* [Continuous Delivery] (https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) - Optional
+* [Phoenix Project] (https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) - Optional
 
 ## Course Purpose
 Students will gain direct, hands on experience inside the Hack Oregon DevOps team during our active production sprint and participate in the deployment of season projects.  Topics that we will cover include:
 
-### DevOps Foundations
+### Foundations
 * Continuous Integration and Continuous Delivery 
 * DevOps Pipeline - Build, Test and Deploy
 * Amazon Web Services (AWS) platform architecture
 * CloudFoundry/Bluemix platform architecture
 
-### Build
+### Foundations Reading List
+
+### The DevOps Pipeline 
+### Build - How we build our application, 
 ### Test
 ### Deploy
+
+### The DevOps Pipeline Reading List
 
 * Ansible, Chef, Puppet, Salt - We will emphasize Ansible
 * Containers - We will emphasize Docker and EC2 Container Service
@@ -58,8 +67,9 @@ Hack Oregon operational stack includes AWS, Ansible, Docker and Vagrant. Applica
 * Reading List
   * Link 1
   * Link 2
-* Meeting 1 (Jan 10th)
-* Meeting 2 (Jan 12th)
+* Meeting 1 (Jan 10th) - Course Introduction, Foundations (CI/CD, DevOps)
+* Meeting 2 (Jan 12th) - Foundations (Platform Architectures)
+* Assignment 1 - Provisioning
 
 #### Week 2 
 * Reading List
