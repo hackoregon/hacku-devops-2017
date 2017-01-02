@@ -42,9 +42,16 @@ Please install the following software prior to our first class:
 * Vagrant: https://www.vagrantup.com/downloads.html
 * Ansible: http://docs.ansible.com/ansible/intro_installation.html
 
-Hack Oregon operational stack includes AWS, Ansible, Docker and Vagrant. Applications are written in Python and NodeJs using Django and React.
+Hack Oregon operational stack includes AWS, Ansible, Docker and Vagrant. Applications typically use a combintation of Javascrpt with React for the front-end with Python and Django and Postgres used for the back-end.
 
-## Course Topics
+## Course Outline
+
+### Readings, Assignments and Projects
+Throughout the course reading material will be assigned to give a broader understanding and context of the DevOps domain and expose the student to core technical principles and tools. Three projects will be assigned and used as the basis for succesful completion of the course. The first project will be completed individually by each student.  The final two projects will be team based with teams of 3 - 5 students per team.  These projects are:
+
+* Project 1 - DevOps Pipeline for a simple front-end application
+* Project 2 - DevOps Pipeline for a full-stack application
+* Project 3 - DevOps Pipeline for a full-stack application using containers
 
 ### Foundations (Weeks 1 & 2)
 * Continuous Integration and Continuous Delivery 
@@ -52,17 +59,17 @@ Hack Oregon operational stack includes AWS, Ansible, Docker and Vagrant. Applica
 * Amazon Web Services (AWS) platform architecture
 * CloudFoundry/Bluemix platform architecture
 
-### The DevOps Pipeline - Part 1 (Weeks 2 & 3)
+### The DevOps Pipeline  (Weeks 2)
 * Build - How we build our application and infrastructre with automation
 * Test - How we automate our testing
 * Deploy - How we automate deployments
 
-### The DevOps Pipeline Part 2 - Full Stack (Weeks 4 & 5)
+### The DevOps Pipeline Part 2 - Full Stack (Weeks 3, 4, 5)
 * Build - How we build our application and infrastructre with automation
 * Test - How we automate our testing
 * Deploy - How we automate deployments
 
-### The DevOps Pipeline Part 3 - Containers (Weeks 5 & 6)
+### The DevOps Pipeline Part 3 - Containers (Weeks 6, 7, 8)
 * Build - How we build our application and infrastructre with automation
 * Test - How we automate our testing
 * Deploy - How we automate deployments
@@ -79,6 +86,7 @@ Hack Oregon operational stack includes AWS, Ansible, Docker and Vagrant. Applica
 * Week 1 Reading List
  - DevOps Handbook - Part 1
  - [AWS Console Overview](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
+ 
 * Week 1 Assignments
  - [Assignment 1 - Provisioning and EC2 instance from the console (http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
 
