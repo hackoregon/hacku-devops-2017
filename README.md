@@ -42,7 +42,7 @@ Please install the following software prior to our first class:
 * Vagrant: https://www.vagrantup.com/downloads.html
 * Ansible: http://docs.ansible.com/ansible/intro_installation.html
 
-Hack Oregon operational stack includes AWS, Ansible, Docker and Vagrant. Applications typically use a combintation of Javascrpt with React for the front-end with Python and Django and Postgres used for the back-end.
+Hack Oregon operational stack includes AWS, Ansible, Docker and Vagrant. Applications typically use a combintation of Javascript with React for the front-end with Python and Django and Postgres used for the back-end.
 
 ## Course Outline
 
@@ -51,7 +51,6 @@ Throughout the course reading material will be assigned to give a broader unders
 
 * Project 1 - DevOps Pipeline for a simple front-end application
 * Project 2 - DevOps Pipeline for a full-stack application
-* Project 3 - DevOps Pipeline for a full-stack application using containers
 
 ### Foundations (Weeks 1 & 2)
 * Continuous Integration and Continuous Delivery 
@@ -59,25 +58,14 @@ Throughout the course reading material will be assigned to give a broader unders
 * Amazon Web Services (AWS) platform architecture
 * CloudFoundry/Bluemix platform architecture
 
-### The DevOps Pipeline  (Weeks 2)
-* Build - How we build our application and infrastructre with automation
-* Test - How we automate our testing
-* Deploy - How we automate deployments
+### The DevOps Pipeline Part 1 - Front-End (Weeks 3, 4)
+* 
 
-### The DevOps Pipeline Part 2 - Full Stack (Weeks 3, 4, 5)
-* Build - How we build our application and infrastructre with automation
-* Test - How we automate our testing
-* Deploy - How we automate deployments
+### The DevOps Pipeline Part 2 - Full Stack (Weeks 5, 6, 7)
+* 
 
-### The DevOps Pipeline Part 3 - Containers (Weeks 6, 7, 8)
-* Build - How we build our application and infrastructre with automation
-* Test - How we automate our testing
-* Deploy - How we automate deployments
-
-### Final Project Hackathons (Weeks 7 & 8)
-* Build - How we build our application and infrastructre with automation
-* Test - How we automate our testing
-* Deploy - How we automate deployments
+### Containers (Weeks 8)
+* 
 
 ## Detailed Class Schedule and Topics Covered
 #### Week 1 - Foundations Part 1
@@ -86,14 +74,21 @@ Throughout the course reading material will be assigned to give a broader unders
 * Week 1 Reading List
  - DevOps Handbook - Part 1
  - [AWS Console Overview](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
- 
+ - [AWS Virtual Private Cloud (VPC)] (http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html)
 * Week 1 Assignments
- - [Assignment 1 - Provisioning and EC2 instance from the console (http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
+ - [Assignment 1 - Provisioning and EC2 instance from the console] (http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
+- [Assignment 2 - WordPress Blog on AWS ](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/hosting-wordpress.html)
 
 #### Week 2 - Foundations Part 2
-* Meeting 3 (Jan 17th)
-* Meeting 4 (Jan 19th)
-
+* Meeting 3 (Jan 17th) - AWS Cloudformation
+* Meeting 4 (Jan 19th) - Ansible Playbook
+* Week 1 Reading List
+ - DevOps Handbook - Part 1
+ - [CloudFormation](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-whatis-concepts.html)
+ - [Configuration Management Concepts] (https://www.digitalocean.com/community/tutorials/an-introduction-to-configuration-management)
+ - [How Ansible Works](https://www.ansible.com/how-ansible-works)
+ - [Ansible Introduction](https://www.digitalocean.com/community/tutorials/configuration-management-101-writing-ansible-playbooks)
+ 
 #### Week 3 - The DevOps Pipeline
 * Meeting 5 (Jan 21st)
 * Meeting 6 (Jan 23rd)
@@ -132,15 +127,6 @@ Throughout the course reading material will be assigned to give a broader unders
   * Link 2
 * Meeting 11 (Feb 21st)
 * Meeting 12 (Feb 23rd)
-
-### Project Overview and Goals
-* Basic CI/CD Pipeline (Due Week 3)
-* Front-end CI/CD Pipeline (Due Week 5)
-* Full-stack CI/CD Pipeline (Due Week 8)
-
-## Course Assessment
-* Class Participation (in class or online)
-* TODO: other methods for how the learner will be assessed
 
 ## Classroom and Lab Policies
 * [HackOregon Code of Conduct](http://www.hackoregon.org/code-of-conduct/)
