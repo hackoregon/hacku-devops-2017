@@ -56,36 +56,46 @@ Throughout the course reading material will be assigned to give a broader unders
 
 ### Meeting 1 - Course Overview & DevOps Level Set
 * Assignment 1 - Host a web page on S3
+
 ### Meeting 2 - AWS & CI Intro
 * Simple Storage Servies (S3)
 * Assignment 2 - CI for Static Web Page
+
 ### Meeting 3 - AWS & Django Container - Part 1
 * Elastic Compute Services (ECS)
 * Assignment 3 - Containerize Django App Setup
 * Alignment with HackOregon Teams - MVPs
+
 ### Meeting 4 - AWS & Django Container - Part 2
 * Elastic Block Storage (EBS)
 * Assignment 4 - Containerize Django App DRF
+
 ### Meeting 5 - AWS & Django Container - Part 3
 * Virtual Private Clouds (VPCs)
 * Assignment 5 - Containerize Django App - TDD
+
 ### Meeting 6 - AWS & Django Container - Part 4
 * Elastic Load Balancing (ELB)
 * Assignment 6 - Containerize Django App - Push to ECR
+
 ## Meeting 7 - AWS & Django Container - Part 5
 * Identity & Access Management (IAM) 
 * Assignment 6 - Containerize Django App Push to ECS
+
 ## Meeting 8 - AWS & Django Container - Travis CI - Elastic Container Service
 * Databases on AWS
 * EC2 Container Services (ECS)
 * Alignment with HackOregon Teams - MVPs
+
 ## Meeting 9 - AWS & FullStack Deploy Part 1
 * SQS, SWF, SNS
 * Alignment with HackOregon Teams - MVPs
+
 ## Meeting 10 - AWS & FullStack Deploy Part 2
 * DNS - Route 53
 * EC2 Container Services (ECS)
 * Alignment with HackOregon Teams - MVPs
+
 ## Meeting 10 
 * DNS - Route 53
 * EC2 Container Services (ECS)
