@@ -47,12 +47,11 @@ Hack Oregon operational stack includes AWS, Ansible, Docker and Vagrant. Applica
 ## Course Outline
 
 ### Readings, Assignments and Projects
-Throughout the course reading material will be assigned to give a broader understanding and context of the DevOps domain and expose the student to core technical principles and tools. Three projects will be assigned and used as the basis for succesful completion of the course. The first project will be completed individually by each student.  The final two projects will be team based with teams of 3 - 5 students per team.  These projects are:
+Throughout the course reading material will be assigned to give a broader understanding and context of the DevOps domain and expose the student to core technical principles and tools. Three projects will be assigned and used as the basis for succesful completion of the course.
 
 * Project 1 - DevOps Pipeline for a simple front-end application - Your HackOregon Team's Information Page
 * Project 2 - DevOps Pipeline for a full-stack application - Your HackOregon Team's full stack app
-
-### Foundations (Weeks 1 & 2)
+* Project 3 - Infrastructure Provisioning & Configuration Management
 
 ### Meeting 1 - Course Overview & DevOps Level Set
 * Assignment 1 - Host a web page on S3
@@ -69,39 +68,72 @@ Throughout the course reading material will be assigned to give a broader unders
 ### Meeting 4 - AWS & Django Container - Part 2
 * Elastic Block Storage (EBS)
 * Assignment 4 - Containerize Django App DRF
+* Alignment with HackOregon Teams - MVPs
 
 ### Meeting 5 - AWS & Django Container - Part 3
 * Virtual Private Clouds (VPCs)
 * Assignment 5 - Containerize Django App - TDD
+* Alignment with HackOregon Teams - MVPs
 
 ### Meeting 6 - AWS & Django Container - Part 4
 * Elastic Load Balancing (ELB)
 * Assignment 6 - Containerize Django App - Push to ECR
+* Alignment with HackOregon Teams - MVPs
 
-## Meeting 7 - AWS & Django Container - Part 5
+### Meeting 7 - AWS & Django Container - Part 5
 * Identity & Access Management (IAM) 
 * Assignment 6 - Containerize Django App Push to ECS
+* Alignment with HackOregon Teams - MVPs
 
-## Meeting 8 - AWS & Django Container - Travis CI - Elastic Container Service
+### Meeting 8 - AWS & Django Container - Travis CI - Elastic Container Service
 * Databases on AWS
 * EC2 Container Services (ECS)
 * Alignment with HackOregon Teams - MVPs
 
-## Meeting 9 - AWS & FullStack Deploy Part 1
+### Meeting 9 - AWS & FullStack Deploy Part 1
 * SQS, SWF, SNS
 * Alignment with HackOregon Teams - MVPs
 
-## Meeting 10 - AWS & FullStack Deploy Part 2
+### Meeting 10 - AWS & FullStack Deploy Part 2
 * DNS - Route 53
-* EC2 Container Services (ECS)
 * Alignment with HackOregon Teams - MVPs
 
-## Meeting 10 
-* DNS - Route 53
-* EC2 Container Services (ECS)
+### Meeting 11 - AWS & FullStack Deploy Part 3
+* AWS Security Part 1
 * Alignment with HackOregon Teams - MVPs
 
-## Classroom and Lab Policies
+### Meeting 12 - AWS & Infrastructure Provisioning & Configuration Management
+* Cloudformation - Part 1
+* Assignment 7 - Cloudformation - Console
+* Alignment with HackOregon Teams - MVPs
+
+### Meeting 13 - AWS & Infrastructure Provisioning & Configuration Management
+* Cloudformation - Part 2
+* Assignment 8 - Cloudformation - CLI
+* Alignment with HackOregon Teams - MVPs
+
+### Meeting 14 - AWS & Infrastructure Provisioning & Configuration Management
+* Ansible - Part 1
+* Assignment 10 - Ansible abd Cloudformation
+* Alignment with HackOregon Teams - MVPs
+
+### Meeting 15 - AWS & Infrastructure Provisioning & Configuration Management
+* Ansible - Part 2
+* Assignment 11 - Ansible abd Cloudformation
+* Alignment with HackOregon Teams - MVPs
+
+### Meeting 16 - AWS & Infrastructure Provisioning & Configuration Management
+* Ansible - Part 3
+* Assignment 11 - Ansible abd Cloudformation
+* Alignment with HackOregon Teams - MVPs
+* Last day to turn in projects
+
+### Project Completion and Turn In Guidelines
+*  Projects will be continuation of assignments with addittional key features
+*  Projects 1 & 3 are individual.  Project 2 is team-based. Meaning it needs to support your HackOregon teams CI/CD needs
+*  Projects are checked into your Github account, with clear instructions on how to run. Meaning, it has to work on my machine and environments
+
+### Classroom and Lab Policies
 * [HackOregon Code of Conduct](http://www.hackoregon.org/code-of-conduct/)
 * Classroom Policies (Discussion Format)
 * Project Policies and Standards
