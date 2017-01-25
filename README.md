@@ -49,84 +49,47 @@ Hack Oregon operational stack includes AWS, Ansible, Docker and Vagrant. Applica
 ### Readings, Assignments and Projects
 Throughout the course reading material will be assigned to give a broader understanding and context of the DevOps domain and expose the student to core technical principles and tools. Three projects will be assigned and used as the basis for succesful completion of the course. The first project will be completed individually by each student.  The final two projects will be team based with teams of 3 - 5 students per team.  These projects are:
 
-* Project 1 - DevOps Pipeline for a simple front-end application
-* Project 2 - DevOps Pipeline for a full-stack application
+* Project 1 - DevOps Pipeline for a simple front-end application - Your HackOregon Team's Information Page
+* Project 2 - DevOps Pipeline for a full-stack application - Your HackOregon Team's full stack app
 
 ### Foundations (Weeks 1 & 2)
-* Continuous Integration and Continuous Delivery 
-* DevOps Pipeline - Build, Test and Deploy
-* Amazon Web Services (AWS) platform architecture
-* CloudFoundry/Bluemix platform architecture
 
-### The DevOps Pipeline Part 1 - Front-End (Weeks 3, 4)
-* 
-
-### The DevOps Pipeline Part 2 - Full Stack (Weeks 5, 6, 7)
-* 
-
-### Containers (Weeks 8)
-* 
-
-## Detailed Class Schedule and Topics Covered
-#### Week 1 - Foundations Part 1
-* Meeting 1 (Jan 10th) - Course Introduction, Foundations (CI/CD, DevOps)
-* Meeting 2 (Jan 12th) - Foundations (Platform Architectures)
-* Week 1 Reading List
- - DevOps Handbook - Part 1
- - [AWS Console Overview](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
- - [AWS Virtual Private Cloud (VPC)] (http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Introduction.html)
-* Week 1 Assignments
- - [Assignment 1 - Provisioning and EC2 instance from the console] (http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
-- [Assignment 2 - WordPress Blog on AWS ](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/hosting-wordpress.html)
-
-#### Week 2 - Foundations Part 2
-* Meeting 3 (Jan 17th) - AWS Cloudformation
-* Meeting 4 (Jan 19th) - Ansible Playbook
-* Week 1 Reading List
- - DevOps Handbook - Part 1
- - [CloudFormation](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-whatis-concepts.html)
- - [Configuration Management Concepts] (https://www.digitalocean.com/community/tutorials/an-introduction-to-configuration-management)
- - [How Ansible Works](https://www.ansible.com/how-ansible-works)
- - [Ansible Introduction](https://www.digitalocean.com/community/tutorials/configuration-management-101-writing-ansible-playbooks)
- 
-#### Week 3 - The DevOps Pipeline
-* Meeting 5 (Jan 21st)
-* Meeting 6 (Jan 23rd)
-
-#### Week 4 
-* Reading List
-  * Link 1
-  * Link 2
-* Meeting 6 (Jan 24th)
-* Meeting 7 (Jan 26th)
-
-#### Week 5
-* Reading List
-  * Link 1
-  * Link 2
-* Meeting 7 (Jan 31st)
-* Meeting 8 (Feb 2nd)
-
-#### Week 6 
-* Reading List
-  * Link 1
-  * Link 2
-* Meeting 8 (Feb 7th)
-* Meeting 9 (Feb 9th)
-
-#### Week 7
-* Reading List
-  * Link 1
-  * Link 2
-* Meeting 10 (Feb 14th)
-* Meeting 11 (Feb 16th)
-
-#### Week 8
-* Reading List
-  * Link 1
-  * Link 2
-* Meeting 11 (Feb 21st)
-* Meeting 12 (Feb 23rd)
+### Meeting 1 - Course Overview & DevOps Level Set
+* Assignment 1 - Host a web page on S3
+### Meeting 2 - AWS & CI Intro
+* Simple Storage Servies (S3)
+* Assignment 2 - CI for Static Web Page
+### Meeting 3 - AWS & Django Container - Part 1
+* Elastic Compute Services (ECS)
+* Assignment 3 - Containerize Django App Setup
+* Alignment with HackOregon Teams - MVPs
+### Meeting 4 - AWS & Django Container - Part 2
+* Elastic Block Storage (EBS)
+* Assignment 4 - Containerize Django App DRF
+### Meeting 5 - AWS & Django Container - Part 3
+* Virtual Private Clouds (VPCs)
+* Assignment 5 - Containerize Django App - TDD
+### Meeting 6 - AWS & Django Container - Part 4
+* Elastic Load Balancing (ELB)
+* Assignment 6 - Containerize Django App - Push to ECR
+## Meeting 7 - AWS & Django Container - Part 5
+* Identity & Access Management (IAM) 
+* Assignment 6 - Containerize Django App Push to ECS
+## Meeting 8 - AWS & Django Container - Travis CI - Elastic Container Service
+* Databases on AWS
+* EC2 Container Services (ECS)
+* Alignment with HackOregon Teams - MVPs
+## Meeting 9 - AWS & FullStack Deploy Part 1
+* SQS, SWF, SNS
+* Alignment with HackOregon Teams - MVPs
+## Meeting 10 - AWS & FullStack Deploy Part 2
+* DNS - Route 53
+* EC2 Container Services (ECS)
+* Alignment with HackOregon Teams - MVPs
+## Meeting 10 
+* DNS - Route 53
+* EC2 Container Services (ECS)
+* Alignment with HackOregon Teams - MVPs
 
 ## Classroom and Lab Policies
 * [HackOregon Code of Conduct](http://www.hackoregon.org/code-of-conduct/)
