@@ -103,11 +103,13 @@ Throughout the course reading material will be assigned to give a broader unders
 * Alignment with HackOregon Teams - MVPs
 
 ### Meeting 12 - AWS & Infrastructure Provisioning & Configuration Management
+* AWS Security Part 2
 * Cloudformation - Part 1
 * Assignment 7 - Cloudformation - Console
 * Alignment with HackOregon Teams - MVPs
 
 ### Meeting 13 - AWS & Infrastructure Provisioning & Configuration Management
+* AWS Architecture Best Practices
 * Cloudformation - Part 2
 * Assignment 8 - Cloudformation - CLI
 * Alignment with HackOregon Teams - MVPs
