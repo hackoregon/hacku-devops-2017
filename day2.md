@@ -10,16 +10,19 @@
 - Working with AWS CLI
 - Test Driven Development (TDD)
 
-### Step 1 - Fork sample project
+### Step 1 - Fork and clone sample project
+- First browse to this project and hit the Fork button to create your own (writeable) copy of the project: https://github.com/hackoregon/programmingforprogress-frontend.git
+- Then click the *Clone or download* button (at the far right) and then the Copy button to get the URL for the project, so you can clone *your* copy
+- You'll run commands like this (but substituting the URL of your project instead)
 ```bash
-$ git clone https://github.com/hackoregon/programmingforprogress-frontend.git
-$ cd programmingforprogress-frontend
-$ git fork
+$ git clone https://github.com/YOURGITHUBUSERNAME/programmingforprogress-frontend.git
 ```
 ### Step 2 - Setup Travis/GitHub integration
 1. Log in to http://travis-ci.org using your github credentials
 2. Add your repository
 3. Activate the repository **<github user name>/programmingforprogress-frontend**
+
+Note: if the setup/welcome page doesn't redirect you after five minutes, just browse to your Accounts page (https://travis-ci.org/profile/) to activate the repository
 
 ### Step 3 - Install local travis client and login using github credentials
 ```bash 
@@ -55,11 +58,11 @@ When prompted enter your AWS Secret key
 $ git add .
 $ git commit . -m "added travis configuration"
 ```
-Switch to travis page and watch build. It will fail.
+Browse to your travis home page (https://travis-ci.org/) and watch the build. It will fail.
 
 ### Step 6 - Install Mocha & Setup Tests
 
-Add the following line before the **install:** line to install mocha framework
+Add the following line to your .travis.yml file before the **install:** line to install the mocha framework
 
 `
 before_install: npm install mocha
@@ -113,7 +116,7 @@ Commit your changes from the command line
 
 ```bash
 $ git add .
-$ git commit . -m "added travis configuration"
+$ git commit . -m "added first test"
 ```
 
 Switch to travis page and watch build. It should pass.
