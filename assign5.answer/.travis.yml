@@ -1,0 +1,6 @@
+env:
+  - AWS_DEFAULT_REGION: default region for your AWS account (e.g. eu-west-1)
+  - AWS_ACCESS_KEY: Your AWS access key
+  - AWS_SECRET_ACCESS_KEY: Your AWS secret access key
+  - IMAGE_NAME: Docker image name for your app (e.g. foo)
+  - REMOTE_IMAGE_URL: Docker repo image url (e.g. your.repo.url/foo)
