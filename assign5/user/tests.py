@@ -38,7 +38,7 @@ class UserAPITestCase(TestCase):
     #     """GET /user/{pk} returns a user"""
     #     assert False is True
 
-	def test_get_user_returns_correct_fields(self):
+    def test_get_user_returns_correct_fields(self):
         """GET /user/{pk} returns a user"""
 
         expected_fields = ['url', 'username', 'email', 'is_staff']
