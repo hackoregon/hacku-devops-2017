@@ -1,0 +1,15 @@
+version: '2'
+services:
+  db:
+    image: postgres
+    cpu_shares: 100
+    mem_limit: 524288000
+  web:
+    image: pdxdiver/django-web
+    cpu_shares: 100
+    mem_limit: 524288000
+    command: /code/docker-entrypoint.sh
+    ports:
+      - "8000:8000"
+    links:
+      - db
