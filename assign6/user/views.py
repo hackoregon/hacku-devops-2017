@@ -4,9 +4,6 @@ from rest_framework.permissions import IsAuthenticated, AllowAny
 
 # Create your views here.
 
-from django.contrib.auth.models import User
-from rest_framework import routers, serializers, viewsets
-
 # Serializers define the API representation.
 class UserSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
