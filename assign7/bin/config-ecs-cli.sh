@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Download, Install and Configure ecs-cli
+#change1
 
 if [ "$(uname)" == "Darwin" ]; then
   # Get the Mac binaries
@@ -9,7 +10,6 @@ elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
   sudo curl -o /usr/local/bin/ecs-cli https://s3.amazonaws.com/amazon-ecs-cli/ecs-cli-linux-amd64-latest
 fi
 sudo chmod +x /usr/local/bin/ecs-cli
-
 
 ecs-cli configure \
   --region us-west-2 \
