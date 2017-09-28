@@ -159,6 +159,46 @@
        }
     },
 
+    "NATEIP" : {
+      "Type" : "AWS::EC2::EIP",
+      "Properties" : {
+        "Domain" : "vpc"
+      }
+    },
+
+    "NAT" : {
+      "DependsOn" : "GatewayToInternet",
+      "Type" : "AWS::EC2::NatGateway",
+      "Properties" : {
+        "AllocationId" : { "Fn::GetAtt" : ["NATEIP", "AllocationId"]},
+        "SubnetId" : { "Ref" : "SubnetdmzA"}
+      }
+    },
+
+    "PrivRouteTable" : {
+      "Type" : "AWS::EC2::RouteTable",
+      "Properties" : {
+        "VpcId" : { "Ref" : "VPC" },
+      }
+    },
+
+    "PrivRoute" : {
+      "Type" : "AWS::EC2::Route",
+      "Properties" : {
+        "RouteTableId" : { "Ref" : "PrivRouteTable" },
+        "DestinationCidrBlock" : "0.0.0.0/0",
+        "NatGatewayId" : { "Ref" : "NAT" }
+      }
+    },
+
+    "privASubnetRouteTableAssociation" : {
+      "Type" : "AWS::EC2::SubnetRouteTableAssociation",
+      "Properties" : {
+        "SubnetId" : { "Ref" : "SubnetprivA" },
+        "RouteTableId" : { "Ref" : "PrivRouteTable" }
+      }
+    },
+
     "DMZRouteTable" : {
       "Type" : "AWS::EC2::RouteTable",
       "Properties" : {
