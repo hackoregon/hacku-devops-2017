@@ -1,0 +1,37 @@
+---
+- hosts: "tag_Name_target"
+  become: true
+  become_user: root
+  become_method: sudo
+  gather_facts: no
+
+  pre_tasks:
+  - name: Install python for Ansible
+    raw: test -e /usr/bin/python || (apt -y update && apt install -y python-minimal)
+    changed_when: False
+
+  tasks:
+    - name: install apt pkgs
+      apt: name={{ item }} state=present
+      update_cache: yes
+      with_items:
+        - python-minimal
+        - software-properties-common
+        - python
+        - python-pip
+        - sshpass
+        - apt-transport-https
+        - ca-certificates
+        - python-dev
+        - libffi-dev
+        - libssl-dev
+
+    - name: install pip pkgs
+      pip: name={{ item }} state=latest
+      with_items:
+      - setuptools
+      - pyopenssl
+      - ndg-httpsclient
+      - pyasn1
+      - ansible
+

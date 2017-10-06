@@ -1,0 +1,189 @@
+2017-10-05 23:21:46,529 p=17273 u=ubuntu |   [ERROR]: User interrupted execution
+
+2017-10-05 23:21:51,198 p=17286 u=ubuntu |  127.0.0.1 | SUCCESS => {
+    "changed": false, 
+    "failed": false, 
+    "ping": "pong"
+}
+2017-10-05 23:22:10,665 p=17356 u=ubuntu |  127.0.0.1 | SUCCESS | rc=0 >>
+              total        used        free      shared  buff/cache   available
+Mem:            990         112         154           3         723         699
+Swap:             0           0           0
+
+2017-10-05 23:41:22,461 p=17556 u=ubuntu |   [WARNING]: Found both group and host with same name: production-002-vpc
+
+2017-10-05 23:41:22,461 p=17556 u=ubuntu |   [WARNING]: Found both group and host with same name: production-003-vpc
+
+2017-10-05 23:41:22,462 p=17556 u=ubuntu |   [WARNING]: Found both group and host with same name: staging-vpc
+
+2017-10-05 23:41:22,462 p=17556 u=ubuntu |   [WARNING]: Found both group and host with same name: production
+
+2017-10-05 23:41:22,462 p=17556 u=ubuntu |   [WARNING]: Found both group and host with same name: production-vpc
+
+2017-10-05 23:41:22,462 p=17556 u=ubuntu |   [WARNING]: Found both group and host with same name: production-001-vpc
+
+2017-10-05 23:41:22,463 p=17556 u=ubuntu |   [WARNING]: Found both group and host with same name: production-001
+
+2017-10-05 23:41:22,463 p=17556 u=ubuntu |   [WARNING]: Found both group and host with same name: production-002
+
+2017-10-05 23:41:22,672 p=17556 u=ubuntu |   [WARNING]: Could not match supplied host pattern, ignoring: 10.70.10.51
+
+2017-10-05 23:41:22,672 p=17556 u=ubuntu |  PLAY [10.70.10.51] *****************************************************************************************************************************************************
+2017-10-05 23:41:22,673 p=17556 u=ubuntu |  skipping: no hosts matched
+2017-10-05 23:41:22,673 p=17556 u=ubuntu |  PLAY RECAP *************************************************************************************************************************************************************
+2017-10-05 23:42:00,313 p=17569 u=ubuntu |   [WARNING]: Unable to parse /home/ubuntu/ansible/10.70.10.51 as an inventory source
+
+2017-10-05 23:42:00,313 p=17569 u=ubuntu |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2017-10-05 23:42:00,314 p=17569 u=ubuntu |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-10-05 23:42:00,314 p=17569 u=ubuntu |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-10-05 23:42:00,521 p=17569 u=ubuntu |   [WARNING]: Could not match supplied host pattern, ignoring: 10.70.10.51
+
+2017-10-05 23:42:00,521 p=17569 u=ubuntu |  PLAY [10.70.10.51] *****************************************************************************************************************************************************
+2017-10-05 23:42:00,521 p=17569 u=ubuntu |  skipping: no hosts matched
+2017-10-05 23:42:00,522 p=17569 u=ubuntu |  PLAY RECAP *************************************************************************************************************************************************************
+2017-10-05 23:42:17,492 p=17594 u=ubuntu |   [WARNING]: Unable to parse /home/ubuntu/ansible/10.70.10.51 as an inventory source
+
+2017-10-05 23:42:17,492 p=17594 u=ubuntu |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2017-10-05 23:42:17,493 p=17594 u=ubuntu |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-10-05 23:42:17,493 p=17594 u=ubuntu |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-10-05 23:42:17,700 p=17594 u=ubuntu |  PLAY [all] *************************************************************************************************************************************************************
+2017-10-05 23:42:17,701 p=17594 u=ubuntu |  skipping: no hosts matched
+2017-10-05 23:42:17,701 p=17594 u=ubuntu |  PLAY RECAP *************************************************************************************************************************************************************
+2017-10-05 23:43:01,811 p=17619 u=ubuntu |   [WARNING]: Unable to parse /home/ubuntu/ansible/10.70.10.51 as an inventory source
+
+2017-10-05 23:43:01,812 p=17619 u=ubuntu |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2017-10-05 23:43:01,813 p=17619 u=ubuntu |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-10-05 23:43:01,813 p=17619 u=ubuntu |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-10-05 23:43:02,024 p=17619 u=ubuntu |  PLAY [all] *************************************************************************************************************************************************************
+2017-10-05 23:43:02,025 p=17619 u=ubuntu |  skipping: no hosts matched
+2017-10-05 23:43:02,025 p=17619 u=ubuntu |  PLAY RECAP *************************************************************************************************************************************************************
+2017-10-05 23:52:05,790 p=17793 u=ubuntu |  ERROR! the playbook: playbook/foo.yml could not be found
+2017-10-05 23:52:13,811 p=17800 u=ubuntu |  PLAY [all] *************************************************************************************************************************************************************
+2017-10-05 23:52:13,817 p=17800 u=ubuntu |  TASK [Gathering Facts] *************************************************************************************************************************************************
+2017-10-05 23:52:15,647 p=17800 u=ubuntu |  fatal: [10.70.10.51]: FAILED! => {"changed": false, "failed": true, "module_stderr": "Shared connection to 10.70.10.51 closed.\r\n", "module_stdout": "/bin/sh: 1: /usr/bin/python: not found\r\n", "msg": "MODULE FAILURE", "rc": 0}
+2017-10-05 23:52:15,649 p=17800 u=ubuntu |  	to retry, use: --limit @/home/ubuntu/ansible/playbooks/foo.retry
+
+2017-10-05 23:52:15,649 p=17800 u=ubuntu |  PLAY RECAP *************************************************************************************************************************************************************
+2017-10-05 23:52:15,649 p=17800 u=ubuntu |  10.70.10.51                : ok=0    changed=0    unreachable=0    failed=1   
+2017-10-05 23:53:43,916 p=17847 u=ubuntu |  PLAY [all] *************************************************************************************************************************************************************
+2017-10-05 23:53:43,923 p=17847 u=ubuntu |  TASK [Gathering Facts] *************************************************************************************************************************************************
+2017-10-05 23:53:45,516 p=17847 u=ubuntu |  fatal: [10.70.10.51]: FAILED! => {"changed": false, "failed": true, "module_stderr": "Shared connection to 10.70.10.51 closed.\r\n", "module_stdout": "/bin/sh: 1: /usr/bin/python: not found\r\n", "msg": "MODULE FAILURE", "rc": 0}
+2017-10-05 23:53:45,518 p=17847 u=ubuntu |  	to retry, use: --limit @/home/ubuntu/ansible/playbooks/foo.retry
+
+2017-10-05 23:53:45,518 p=17847 u=ubuntu |  PLAY RECAP *************************************************************************************************************************************************************
+2017-10-05 23:53:45,518 p=17847 u=ubuntu |  10.70.10.51                : ok=0    changed=0    unreachable=0    failed=1   
+2017-10-05 23:54:52,118 p=17869 u=ubuntu |  PLAY [all] *************************************************************************************************************************************************************
+2017-10-05 23:54:52,125 p=17869 u=ubuntu |  TASK [Install python for Ansible] **************************************************************************************************************************************
+2017-10-05 23:55:07,231 p=17869 u=ubuntu |  ok: [10.70.10.51]
+2017-10-05 23:55:07,236 p=17869 u=ubuntu |  TASK [install apt pkgs] ************************************************************************************************************************************************
+2017-10-05 23:55:10,449 p=17869 u=ubuntu |  failed: [10.70.10.51] (item=[u'python-minimal', u'software-properties', u'python', u'python-pip', u'sshpass', u'apt-transport-http', u'ca-certficates', u'python-dev', u'libffi-dev', u'libssl-dev']) => {"changed": false, "failed": true, "item": ["python-minimal", "software-properties", "python", "python-pip", "sshpass", "apt-transport-http", "ca-certficates", "python-dev", "libffi-dev", "libssl-dev"], "msg": "No package matching 'software-properties' is available"}
+2017-10-05 23:55:10,452 p=17869 u=ubuntu |  	to retry, use: --limit @/home/ubuntu/ansible/playbooks/foo.retry
+
+2017-10-05 23:55:10,452 p=17869 u=ubuntu |  PLAY RECAP *************************************************************************************************************************************************************
+2017-10-05 23:55:10,453 p=17869 u=ubuntu |  10.70.10.51                : ok=1    changed=0    unreachable=0    failed=1   
+2017-10-05 23:59:58,083 p=17894 u=ubuntu |   [WARNING]: Ignoring invalid attribute: update_cache
+
+2017-10-05 23:59:58,084 p=17894 u=ubuntu |   [WARNING]: Ignoring invalid attribute: wit_items
+
+2017-10-05 23:59:58,228 p=17894 u=ubuntu |  PLAY [all] *************************************************************************************************************************************************************
+2017-10-05 23:59:58,234 p=17894 u=ubuntu |  TASK [Install python for Ansible] **************************************************************************************************************************************
+2017-10-05 23:59:59,524 p=17894 u=ubuntu |  ok: [10.70.10.51]
+2017-10-05 23:59:59,528 p=17894 u=ubuntu |  TASK [install apt pkgs] ************************************************************************************************************************************************
+2017-10-06 00:00:00,089 p=17894 u=ubuntu |  failed: [10.70.10.51] (item=[u'python-minimal', u'software-properties-common', u'python', u'python-pip', u'sshpass', u'apt-transport-http', u'ca-certficates', u'python-dev', u'libffi-dev', u'libssl-dev']) => {"changed": false, "failed": true, "item": ["python-minimal", "software-properties-common", "python", "python-pip", "sshpass", "apt-transport-http", "ca-certficates", "python-dev", "libffi-dev", "libssl-dev"], "msg": "No package matching 'apt-transport-http' is available"}
+2017-10-06 00:00:00,092 p=17894 u=ubuntu |  	to retry, use: --limit @/home/ubuntu/ansible/playbooks/foo.retry
+
+2017-10-06 00:00:00,093 p=17894 u=ubuntu |  PLAY RECAP *************************************************************************************************************************************************************
+2017-10-06 00:00:00,093 p=17894 u=ubuntu |  10.70.10.51                : ok=1    changed=0    unreachable=0    failed=1   
+2017-10-06 00:00:46,516 p=17919 u=ubuntu |   [WARNING]: Ignoring invalid attribute: update_cache
+
+2017-10-06 00:00:46,517 p=17919 u=ubuntu |   [WARNING]: Ignoring invalid attribute: wit_items
+
+2017-10-06 00:00:46,658 p=17919 u=ubuntu |  PLAY [all] *************************************************************************************************************************************************************
+2017-10-06 00:00:46,665 p=17919 u=ubuntu |  TASK [Install python for Ansible] **************************************************************************************************************************************
+2017-10-06 00:00:46,743 p=17919 u=ubuntu |  ok: [10.70.10.51]
+2017-10-06 00:00:46,747 p=17919 u=ubuntu |  TASK [install apt pkgs] ************************************************************************************************************************************************
+2017-10-06 00:00:47,293 p=17919 u=ubuntu |  failed: [10.70.10.51] (item=[u'python-minimal', u'software-properties-common', u'python', u'python-pip', u'sshpass', u'apt-transport-https', u'ca-certficates', u'python-dev', u'libffi-dev', u'libssl-dev']) => {"changed": false, "failed": true, "item": ["python-minimal", "software-properties-common", "python", "python-pip", "sshpass", "apt-transport-https", "ca-certficates", "python-dev", "libffi-dev", "libssl-dev"], "msg": "No package matching 'ca-certficates' is available"}
+2017-10-06 00:00:47,296 p=17919 u=ubuntu |  	to retry, use: --limit @/home/ubuntu/ansible/playbooks/foo.retry
+
+2017-10-06 00:00:47,296 p=17919 u=ubuntu |  PLAY RECAP *************************************************************************************************************************************************************
+2017-10-06 00:00:47,297 p=17919 u=ubuntu |  10.70.10.51                : ok=1    changed=0    unreachable=0    failed=1   
+2017-10-06 00:01:34,461 p=17941 u=ubuntu |   [WARNING]: Ignoring invalid attribute: update_cache
+
+2017-10-06 00:01:34,462 p=17941 u=ubuntu |   [WARNING]: Ignoring invalid attribute: wit_items
+
+2017-10-06 00:01:34,605 p=17941 u=ubuntu |  PLAY [all] *************************************************************************************************************************************************************
+2017-10-06 00:01:34,611 p=17941 u=ubuntu |  TASK [Install python for Ansible] **************************************************************************************************************************************
+2017-10-06 00:01:34,684 p=17941 u=ubuntu |  ok: [10.70.10.51]
+2017-10-06 00:01:34,687 p=17941 u=ubuntu |  TASK [install apt pkgs] ************************************************************************************************************************************************
+2017-10-06 00:01:51,775 p=17941 u=ubuntu |  changed: [10.70.10.51] => (item=[u'python-minimal', u'software-properties-common', u'python', u'python-pip', u'sshpass', u'apt-transport-https', u'ca-certificates', u'python-dev', u'libffi-dev', u'libssl-dev'])
+2017-10-06 00:01:51,780 p=17941 u=ubuntu |  TASK [install pip pkgs] ************************************************************************************************************************************************
+2017-10-06 00:01:51,791 p=17941 u=ubuntu |  fatal: [10.70.10.51]: FAILED! => {"failed": true, "msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/ubuntu/ansible/playbooks/foo.yml': line 29, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n    - name: install pip pkgs\n      ^ here\n\nexception type: <class 'ansible.errors.AnsibleUndefinedVariable'>\nexception: 'item' is undefined"}
+2017-10-06 00:01:51,793 p=17941 u=ubuntu |  	to retry, use: --limit @/home/ubuntu/ansible/playbooks/foo.retry
+
+2017-10-06 00:01:51,793 p=17941 u=ubuntu |  PLAY RECAP *************************************************************************************************************************************************************
+2017-10-06 00:01:51,794 p=17941 u=ubuntu |  10.70.10.51                : ok=2    changed=1    unreachable=0    failed=1   
+2017-10-06 00:02:30,944 p=17965 u=ubuntu |   [WARNING]: Ignoring invalid attribute: update_cache
+
+2017-10-06 00:02:31,087 p=17965 u=ubuntu |  PLAY [all] *************************************************************************************************************************************************************
+2017-10-06 00:02:31,094 p=17965 u=ubuntu |  TASK [Install python for Ansible] **************************************************************************************************************************************
+2017-10-06 00:02:31,164 p=17965 u=ubuntu |  ok: [10.70.10.51]
+2017-10-06 00:02:31,168 p=17965 u=ubuntu |  TASK [install apt pkgs] ************************************************************************************************************************************************
+2017-10-06 00:02:31,691 p=17965 u=ubuntu |  ok: [10.70.10.51] => (item=[u'python-minimal', u'software-properties-common', u'python', u'python-pip', u'sshpass', u'apt-transport-https', u'ca-certificates', u'python-dev', u'libffi-dev', u'libssl-dev'])
+2017-10-06 00:02:31,696 p=17965 u=ubuntu |  TASK [install pip pkgs] ************************************************************************************************************************************************
+2017-10-06 00:02:33,840 p=17965 u=ubuntu |  changed: [10.70.10.51] => (item=setuptools)
+2017-10-06 00:02:37,635 p=17965 u=ubuntu |  changed: [10.70.10.51] => (item=pyopenssl)
+2017-10-06 00:02:39,532 p=17965 u=ubuntu |  changed: [10.70.10.51] => (item=ndg-httpsclient)
+2017-10-06 00:02:40,675 p=17965 u=ubuntu |  ok: [10.70.10.51] => (item=pyasn1)
+2017-10-06 00:03:15,819 p=17965 u=ubuntu |  changed: [10.70.10.51] => (item=ansible)
+2017-10-06 00:03:15,820 p=17965 u=ubuntu |  PLAY RECAP *************************************************************************************************************************************************************
+2017-10-06 00:03:15,820 p=17965 u=ubuntu |  10.70.10.51                : ok=3    changed=1    unreachable=0    failed=0   
+2017-10-06 00:13:39,651 p=18030 u=ubuntu |   [WARNING]: Unable to parse /home/ubuntu/ansible/10.70.10.51 as an inventory source
+
+2017-10-06 00:13:39,651 p=18030 u=ubuntu |   [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2017-10-06 00:13:39,652 p=18030 u=ubuntu |   [WARNING]: Could not match supplied host pattern, ignoring: all
+
+2017-10-06 00:13:39,652 p=18030 u=ubuntu |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2017-10-06 00:13:39,723 p=18030 u=ubuntu |   [WARNING]: Ignoring invalid attribute: update_cache
+
+2017-10-06 00:13:39,861 p=18030 u=ubuntu |  PLAY [all] *************************************************************************************************************************************************************
+2017-10-06 00:13:39,862 p=18030 u=ubuntu |  skipping: no hosts matched
+2017-10-06 00:13:39,862 p=18030 u=ubuntu |  PLAY RECAP *************************************************************************************************************************************************************
+2017-10-06 00:19:45,812 p=18194 u=ubuntu |   [WARNING]: Ignoring invalid attribute: update_cache
+
+2017-10-06 00:19:45,952 p=18194 u=ubuntu |  PLAY [tag_Name_target] *************************************************************************************************************************************************
+2017-10-06 00:19:45,959 p=18194 u=ubuntu |  TASK [Install python for Ansible] **************************************************************************************************************************************
+2017-10-06 00:19:47,355 p=18194 u=ubuntu |  ok: [10.70.10.51]
+2017-10-06 00:19:47,360 p=18194 u=ubuntu |  TASK [install apt pkgs] ************************************************************************************************************************************************
+2017-10-06 00:19:47,930 p=18194 u=ubuntu |  ok: [10.70.10.51] => (item=[u'python-minimal', u'software-properties-common', u'python', u'python-pip', u'sshpass', u'apt-transport-https', u'ca-certificates', u'python-dev', u'libffi-dev', u'libssl-dev'])
+2017-10-06 00:19:47,935 p=18194 u=ubuntu |  TASK [install pip pkgs] ************************************************************************************************************************************************
+2017-10-06 00:19:49,551 p=18194 u=ubuntu |  ok: [10.70.10.51] => (item=setuptools)
+2017-10-06 00:19:51,350 p=18194 u=ubuntu |  ok: [10.70.10.51] => (item=pyopenssl)
+2017-10-06 00:19:53,083 p=18194 u=ubuntu |  ok: [10.70.10.51] => (item=ndg-httpsclient)
+2017-10-06 00:19:54,232 p=18194 u=ubuntu |  ok: [10.70.10.51] => (item=pyasn1)
+2017-10-06 00:19:56,467 p=18194 u=ubuntu |  ok: [10.70.10.51] => (item=ansible)
+2017-10-06 00:19:56,468 p=18194 u=ubuntu |  PLAY RECAP *************************************************************************************************************************************************************
+2017-10-06 00:19:56,468 p=18194 u=ubuntu |  10.70.10.51                : ok=3    changed=0    unreachable=0    failed=0   
+2017-10-06 00:23:00,588 p=18306 u=ubuntu |   [WARNING]: Ignoring invalid attribute: update_cache
+
+2017-10-06 00:23:00,733 p=18306 u=ubuntu |  PLAY [all] *************************************************************************************************************************************************************
+2017-10-06 00:23:00,740 p=18306 u=ubuntu |  TASK [Install python for Ansible] **************************************************************************************************************************************
+2017-10-06 00:23:02,027 p=18306 u=ubuntu |  ok: [10.70.10.51]
+2017-10-06 00:23:02,031 p=18306 u=ubuntu |  TASK [install python minimal] ******************************************************************************************************************************************
+2017-10-06 00:23:02,588 p=18306 u=ubuntu |  ok: [10.70.10.51]
+2017-10-06 00:23:02,592 p=18306 u=ubuntu |  TASK [install software-properties-common] ******************************************************************************************************************************
+2017-10-06 00:23:02,996 p=18306 u=ubuntu |  ok: [10.70.10.51]
+2017-10-06 00:23:02,999 p=18306 u=ubuntu |  TASK [install pip setuptools] ******************************************************************************************************************************************
+2017-10-06 00:23:04,484 p=18306 u=ubuntu |  ok: [10.70.10.51]
+2017-10-06 00:23:04,486 p=18306 u=ubuntu |  PLAY RECAP *************************************************************************************************************************************************************
+2017-10-06 00:23:04,487 p=18306 u=ubuntu |  10.70.10.51                : ok=4    changed=0    unreachable=0    failed=0   

@@ -1,0 +1,28 @@
+---
+- hosts: "{{ hosts | default('all') }}"
+  become: true
+  become_user: root
+  become_method: sudo
+  gather_facts: no
+
+  pre_tasks:
+  - name: Install python for Ansible
+    raw: test -e /usr/bin/python || (apt -y update && apt install -y python-minimal)
+    changed_when: False
+
+  tasks:
+    - name: install python minimal
+      apt:
+        name: python-minimal
+        state: present
+      update_cache: yes
+
+    - name: install software-properties-common
+      apt:
+        name: software-properties-common
+        state: present
+
+    - name: install pip setuptools
+      pip:
+        name: setuptools
+        state: latest
