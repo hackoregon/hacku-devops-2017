@@ -1,0 +1,3 @@
+vpc_id: vpc-b23749d4
+vpn_ip: 52.11.30.179
+bastion_instance: i-2855abbc

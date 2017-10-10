@@ -1,0 +1,23 @@
+---
+
+- hosts: localhost
+  connection: local
+  gather_facts: true
+
+  vars:
+    instance_type: t2.micro
+    count: 1
+    assign_public_ip: yes
+    image_name: "ubuntu/images/hvm-ssd/ubuntu-trusty-14.04-amd64-server-*"
+    image_owner: "099720109477"
+    wait: yes
+    source_dest_check: "no"
+    application: natvpn
+    owner: circleci
+    region: "{{ lookup('env', 'AWS_REGION') }}"
+    mygroup: "{{ lookup('env', 'MYGROUP') }}"
+    keypair: "{{ lookup('env', 'KEYPAIR') }}"
+
+  roles:
+    - { role: ec2-provision-instance, vpc_subnet_id: "subnet-848924cc", group: "{{mygroup}}" }
+
