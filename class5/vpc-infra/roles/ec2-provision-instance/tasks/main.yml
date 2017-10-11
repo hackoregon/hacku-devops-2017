@@ -21,6 +21,7 @@
     assign_public_ip: "{{assign_public_ip}}"
     source_dest_check: "{{source_dest_check}}"
     wait: "{{wait}}"
+    instance_tags: "{{mytags}}"
   register: ec2_info
 
 - debug: var=ec2_info

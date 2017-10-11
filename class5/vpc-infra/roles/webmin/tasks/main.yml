@@ -1,0 +1,52 @@
+---
+- name: create webmin user
+  user: name={{webmin_user}} shell=/sbin/nologin  groups=admin password={{webmin_passwd}} createhome=no
+
+- name: add webmin repo key
+  apt_key: url=http://www.webmin.com/jcameron-key.asc state=present
+
+- name: add webmin repo
+  apt_repository: repo='deb http://download.webmin.com/download/repository sarge contrib' state=present update_cache=yes
+
+- name: install webmin deb
+  apt: name=webmin state=latest force=yes
+
+- stat: path=/tmp/openvpn-2.6.wbm.gz
+  register: ovpn
+
+- name: download webmin openvpn module
+  get_url: url=http://www.openit.it/downloads/OpenVPNadmin/openvpn-2.6.wbm.gz
+           dest=/tmp/
+           force=no
+           force_basic_auth=yes
+  changed_when: not ovpn.stat.exists
+
+- name: install webmin openvpn
+  command: /usr/share/webmin/install-module.pl /tmp/openvpn-2.6.wbm.gz
+
+- name: install webmin config
+  template:
+    src: config.j2
+    dest: /etc/webmin/config
+    owner: root
+    group: bin
+    mode: '0644'
+
+- name: install miniserv users
+  template:
+    src: miniserv-users.j2
+    dest: /etc/webmin/miniserv.users
+    owner: root
+    group: bin
+    mode: '0644'
+
+- name: install miniserv config
+  template:
+    src: miniserv.j2
+    dest: /etc/webmin/miniserv.conf
+    owner: root
+    group: bin
+    mode: '0644'
+
+- name: ensure webmin is running (and enable it at boot)
+  service: name=webmin state=started enabled=yes

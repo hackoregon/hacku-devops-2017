@@ -13,11 +13,11 @@
     wait: yes
     source_dest_check: "no"
     application: natvpn
-    owner: circleci
+    owner: bill
     region: "{{ lookup('env', 'AWS_REGION') }}"
     mygroup: "{{ lookup('env', 'MYGROUP') }}"
     keypair: "{{ lookup('env', 'KEYPAIR') }}"
+    mysubnet: "{{ lookup('env', 'MYSUBNET') }}"
 
   roles:
     - { role: ec2-provision-instance, vpc_subnet_id: "subnet-848924cc", group: "{{mygroup}}" }
-
