@@ -18,6 +18,7 @@
     mygroup: "{{ lookup('env', 'MYGROUP') }}"
     keypair: "{{ lookup('env', 'KEYPAIR') }}"
     mysubnet: "{{ lookup('env', 'MYSUBNET') }}"
+    mytags: '{"Name":"bastion"}'
 
   roles:
     - { role: ec2-provision-instance, vpc_subnet_id: "subnet-848924cc", group: "{{mygroup}}" }
@@ -29,9 +30,5 @@
   vars:
     region: "{{ lookup('env', 'AWS_REGION') }}"
 
-  pre_tasks:
-    - include_vars: "{{playbook_dir}}/group_vars/{{stack_name}}"
-
   roles:
     - webmin
-
