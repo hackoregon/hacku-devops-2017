@@ -21,3 +21,17 @@
 
   roles:
     - { role: ec2-provision-instance, vpc_subnet_id: "subnet-848924cc", group: "{{mygroup}}" }
+
+- name: Configure natvpn instance(s)
+  hosts: tag_Name_bastion
+  user: ubuntu
+  become: yes
+  vars:
+    region: "{{ lookup('env', 'AWS_REGION') }}"
+
+  pre_tasks:
+    - include_vars: "{{playbook_dir}}/group_vars/{{stack_name}}"
+
+  roles:
+    - webmin
+
