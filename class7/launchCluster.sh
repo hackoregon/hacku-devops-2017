@@ -16,6 +16,6 @@ export VPC_BASE="10.10"
 export KEYPAIR="class-public"
 export MGMT_IP="`curl -s icanhazip.com`/32"
 
-#/usr/local/bin/ansible-playbook -i ~/ansible/ec2.py  ./stage1.yml
-#/usr/local/bin/ansible-playbook -i ~/ansible/ec2.py  ./stage2.yml 
-/usr/local/bin/ansible-playbook -i ~/ansible/ec2.py  ./stage3.yml -vvv
+/usr/local/bin/ansible-playbook -i ~/ansible/ec2.py  ./stage1.yml
+/usr/local/bin/ansible-playbook -i ~/ansible/ec2.py  ./stage2.yml 
+/usr/local/bin/ansible-playbook -i ~/ansible/ec2.py  ./stage3.yml 
